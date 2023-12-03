@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'pretendard';
+    color: #1c1c1c;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+.en{
+    font-family: 'OpenSans';
+}
+
+button{
+    background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer}

@@ -1,0 +1,105 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+.one{
+    background: url(/img/banner/one.png) no-repeat center / cover;
+}
+
+.two{
+    background: url(/img/banner/two.png) no-repeat center / cover;
+}
+
+.three{
+    background: url(/img/banner/three.png) no-repeat center / cover;
+}
+
+.four{
+    background: url(/img/banner/four.png) no-repeat center / cover;
+}
+
+.swiper-text{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.swiper-text h2{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.swiper-text p{
+    color: #fff;
+    font-weight: 300;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, 
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0;
+}
+
+.swiper-scrollbar{
+    border-radius: 0 !important;
+    height: 2px !important;
+    bottom: 52px !important;
+    width: 300px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    background:var(--swiper-scrollbar-bg-color,rgba(255, 255, 255, 0.3));
+}
+
+.swiper-scrollbar-drag{
+    background-color: #fff;
+    border-radius: 0 !important;
+}
+
+:root {
+    --swiper-theme-color: #fff;
+}
+
+@media(max-width:1024px){
+    
+    .one{
+        background: url(/img/banner/tab/one.png) no-repeat center / cover;
+    }
+
+    .swiper-text h2{
+        color: #fff;
+        font-size: 52px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:500px){
+    .one{
+        background: url(/img/banner/mob/one.png) no-repeat center / cover;
+    }
+
+    .header-swiper{
+        height: 373px !important;
+    }
+    
+    .header-wrapper{
+        height: 373px;
+    }
+
+    .swiper-text h2{
+        font-size: 32px;
+    }
+    .swiper-text p{
+        font-size: 14px;
+    }
+}

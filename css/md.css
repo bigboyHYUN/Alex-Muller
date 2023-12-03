@@ -1,0 +1,46 @@
+.mdshop-container{
+    margin-top: 120px;
+    position: relative;
+}
+
+.md-shop-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mdshop-container .product-swiper{
+    display:none;
+}
+
+.mdshop-container .show{
+    display:block;
+}
+
+.md-img{
+    position: relative;
+}
+
+
+.md-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.md-img img:last-of-type{
+    opacity: 0;
+
+}
+
+.md-img:hover img:last-of-type{
+    opacity: 1;
+}
+
+@media(max-width:500px){
+    .mdshop-container{
+        margin-top: 80px;
+    }
+}
