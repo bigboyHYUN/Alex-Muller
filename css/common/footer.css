@@ -2,6 +2,7 @@ footer{
     background-color: #FCF7F1;
     height:500px;
     position: relative;
+    z-index: 9999;
 }
 
 

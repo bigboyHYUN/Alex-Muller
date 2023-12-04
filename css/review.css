@@ -39,6 +39,7 @@
     margin-top: 6px;
 }
 
+
 .section-title__view a{
     display: inline-block;
     font-size: 14px;
@@ -50,9 +51,15 @@
 .section-title__view a::after{
     content: '';
     display: block;
-    width: 100%;
+    width: 0;
     height: 1px;
     background-color: #3d3d3d;
+    transition: 0.5s;
+}
+
+.section-title__view a:hover:after{
+    width: 100%;
+    transition: 0.5s;
 }
 
 .review-content__left{
