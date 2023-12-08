@@ -57,7 +57,7 @@ main{
 .shop-now{
     margin-top: 32px;
     position: absolute;
-    right: 40px;
+    right: 0;
     font-size: 20px;
     font-weight: 600;
     transition: 0.4s;
