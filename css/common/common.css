@@ -77,6 +77,10 @@ main{
 }
 
 @media(max-width:1024px){
+    .shop-now{
+        right: 40px;
+    }
+
     .padding-wrapper{
         padding: 0 40px;
     }
@@ -98,6 +102,10 @@ main{
 }
 
 @media(max-width:500px){
+    .shop-now{
+        right: 20px;
+    }
+
     .padding-wrapper{
         padding: 0 20px;
     }
