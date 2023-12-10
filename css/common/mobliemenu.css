@@ -21,6 +21,24 @@
     font-weight: 500;
 }
 
+.mobile-menu__gnb li a{
+    display: inline-block;
+}
+
+.mobile-menu__gnb li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: #1c1c1c;
+    transition: 0.4s;
+}
+
+.mobile-menu__gnb li a:hover::after{
+    width: 100%;
+    transition: 0.4s;
+}
+
 .mobile-menu__gnb li + li{
     margin-top: 48px;
 }

@@ -161,6 +161,10 @@
     margin-right: 4px;
 }
 
+.p-text__right li:nth-of-type(2){
+    color:#5b5b5b;
+}
+
 .swiper-button-next,
 .swiper-button-prev{
     z-index:10;

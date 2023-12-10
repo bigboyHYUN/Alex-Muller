@@ -182,8 +182,30 @@ header {
 }
 
 @media(max-width:500px){
+    .hambuger-menu{
+        width: 28px;
+        height: 20px;
+    }
+
+    .hambuger-menu span:first-of-type{
+        width: 28px;
+    }
+
+    .hambuger-menu span:nth-of-type(2){
+        width: 18px;
+    }
+
+    .hambuger-menu span:last-of-type{
+        width: 28px;
+    }
+
     .header-util{
         right:20px;
+    }
+
+    .header-util div img{
+        width: 22px;
+        height: 22px;
     }
 
     .header-container{

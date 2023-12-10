@@ -162,6 +162,14 @@
 }
 
 @media(max-width:1024px){
+    .photo:hover::after{
+        display: none;
+    }
+
+    .review-hover{
+        display: none;
+    }
+
     .review-content__right{
         gap:14px;
     }
