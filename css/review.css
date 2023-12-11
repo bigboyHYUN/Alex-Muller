@@ -180,8 +180,6 @@
     .section-title__re h3{
         font-size: 32px;
     }
-
-    
 }
 
 @media(max-width:500px){
@@ -214,5 +212,9 @@
 
     .section-title__view a{
         margin-top: 24px;
+    }
+
+    .section-title__re h3{
+        margin-bottom: 10px;
     }
 }

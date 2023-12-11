@@ -47,7 +47,6 @@
 
 .showroom-text__bottom p{
     font-weight: 300;
-    margin-top: 6px;
 }
 
 .margin-left{
@@ -101,7 +100,8 @@
 
     .showroom-img img{
         width: 100%;
-        height: 250px;
+        height: 227px;
+        margin-top: 32px;
     }
 
     .showroom-text__button{
