@@ -190,8 +190,6 @@
     transition: 0.5s;
 }
 
-/* pointer-events */
-
 .product-img img:last-of-type{
     opacity: 0;
 
@@ -247,5 +245,8 @@
     .product-text h5{
         font-size: 14px;
     }
-    
+
+    .product-layout{
+        margin-top: 6px;
+    }
 }
