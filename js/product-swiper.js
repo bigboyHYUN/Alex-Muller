@@ -19,7 +19,7 @@ const productSwiper = new Swiper(".product-swiper", {
         slidesPerView:3,
       },
 
-      1025:{
+      1432:{
         slidesPerView:4,
       },
     }
